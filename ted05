@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main(void) {
+  setlocale(LC_ALL,"");
+
+
+  float r,a;
+  printf("ted-05\n");
+  printf("digite o valor do raio da circurferência?");
+  scanf("%f",&r);
+  a=2*3.14*r;
+  printf("com o valor do raio sendo de %.2f a circurferência terá:%.2f de area",r,a);
+  return 0;
+}
